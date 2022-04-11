@@ -6,17 +6,13 @@
     "baseBranches": []
   },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff"
+    "vulnerableCheckRunConclusionLevel": "failure"
   },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
-  },
-  {
   "remediateSettings": {
     "enableRenovate": true,
     "extends": ["github>whitesource/merge-confidence:beta"]
-    }
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
   }
 }
