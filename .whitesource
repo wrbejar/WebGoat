@@ -17,8 +17,5 @@
     "enableRenovate": true,
     "extends": ["github>whitesource/merge-confidence:beta"]
   },
-  {    "workflowRules": {
-      "enabled": true
-    }
-  }
+ }
 }
