@@ -6,13 +6,18 @@
     "baseBranches": []
   },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure"
-  },
-  "remediateSettings": {
-    "enableRenovate": true,
-    "extends": ["github>whitesource/merge-confidence:beta"]
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+},	  
+	"enableRenovate": true,
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
