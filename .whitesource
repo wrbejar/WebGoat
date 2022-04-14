@@ -12,14 +12,6 @@
   "issueSettings": {
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
-  },
-  "remediateSettings": {
-     "enableRenovate": true,
-    "extends": ["github>whitesource/merge-confidence:beta"],
-   "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
   }
-  }	  
  }
  
